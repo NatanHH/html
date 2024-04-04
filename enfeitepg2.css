@@ -1,0 +1,152 @@
+.cabecalho {
+    height: 80px;
+    padding: 3px 0;
+    /* background-color: rgba(0, 0, 255, 0.637); */
+    background: linear-gradient(90deg, blue, green , yellow );
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(212, 255, 251, 0.39);
+    font-family: "Inder", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, aliceblue, aliceblue);
+}
+
+#camp{
+    text-align: center;
+    font-family: "Inder", sans-serif;
+    font-size: 40px;
+}
+.cabecalho-pag{
+
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+#logo{
+    background-color: rgba(0, 0, 0, 0);
+    width: 4.5%;
+    
+}
+#busca{
+    background-color: white;
+    
+}
+#para1{
+    font-family: "Inder", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+#imagem{
+    position: absolute;
+    left: 60px;
+    ;
+}
+
+.a{
+    color: aliceblue;
+
+    
+}
+#botoes{
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    display: flex;
+}
+li{
+    margin-left: 50px;
+    list-style: none;
+}
+.branco{
+    color: white;
+}
+#botoes{
+    text-align: center;
+}
+#imagem{
+  position: absolute;
+  top: 20%;
+  display: block;
+}
+
+.cabecalho{
+position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+  .nav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+}
+.tb1{
+    width: 800px;
+    text-align: center;
+}
+
+td,
+th{
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.tabela{
+  height: 300px;
+  width: 400px;
+}
